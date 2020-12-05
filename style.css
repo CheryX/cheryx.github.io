@@ -1,0 +1,161 @@
+html 
+{
+    scroll-behavior: smooth;
+}
+a.button
+{
+    color: white;
+    text-decoration: none;
+}
+header
+{
+    width: 1%;
+    margin: 0 auto;
+    padding: 3rem 4rem;
+    background-color: #159957;
+    background-image: linear-gradient(120deg, #155799, #159957);
+    text-align: center;
+    font-size: 40pt;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: table-cell;
+    vertical-align: middle;
+}
+#button
+{
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 65%;
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.918);
+    background-color: rgba(255, 255, 255, 0.158);
+    border-color: rgba(255,255,255,0.2);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0.3rem;
+    transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+    font-size: 0.9rem;
+    padding: 0.6rem 0.9rem;
+    margin-bottom: 1rem;
+}
+#button:hover
+{
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+    background-color: rgba(255,255,255,0.2);
+    border-color: rgba(255,255,255,0.3);
+    transition-duration: 0.4s;
+}
+article
+{
+    width: 50%;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    margin-top: 75px;
+}
+h1
+{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: normal;
+    color: #159957;
+    font-size: 1.8em;
+    margin: 0.67em 0;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+h2
+{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: normal;
+    color: #159957;
+    font-size: 1.5em;
+    margin: 0.67em 0;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+h3
+{
+    margin-top: 2rem;
+    margin-bottom: rem;
+    font-weight: normal;
+    color: #159957;
+    font-size: 1.2em;
+    margin: 0.67em 0;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+a
+{
+    color: #444444;
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: underline;
+    transition-duration: 0.6s;
+    color: teal;
+}
+p, ul
+{
+    color: #3e423d;
+}
+footer
+{
+    width: 1%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #159957;
+    background-image: linear-gradient(120deg, #155799, #159957);
+    text-align: center;
+    font-size: 12pt;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: table-cell;
+    vertical-align: middle;
+}
+#button2
+{
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 100%;
+    display: inline-block;
+    color: rgba(126, 126, 126, 0.918);
+    background-color: rgba(197, 197, 197, 0.158);
+    border-color: rgba(158, 158, 158, 0.452);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0.3rem;
+    transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+    font-size: 0.9rem;
+    padding: 0.6rem 0.9rem;
+    margin-bottom: 1rem;
+}
+#button2:hover
+{
+    color: rgba(153, 153, 153, 0.918);
+    text-decoration: none;
+    background-color: rgba(218, 218, 218, 0.164);
+    border-color: rgba(202, 202, 202, 0.582);
+    transition-duration: 0.4s;
+}
+#code
+{
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 100%;
+    display: inline-block;
+    color: rgba(123, 108, 148, 0.918);
+    background-color: rgba(43, 37, 68, 0.158);
+    border-color: rgba(146, 134, 158, 0.452);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0.3rem;
+    font-size: 0.9rem;
+    padding: 0.6rem 0.9rem;
+    margin-bottom: 1rem;
+    font-family: Consolas;
+    clear: both;
+}
